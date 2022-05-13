@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Clicker+Script&family=Neonderthaw&family=Open+Sans&family=Poppins:wght@200;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+ @import url('http://fonts.cdnfonts.com/css/the-suavity');
+ @keyframes animationgradienttitle {
+  0% {
+      background-position: 0 1600px;
+  }
+  100% {
+      background-position: 1600px 0;
+  }
+}
+$gradient-color-1:#097DE9;
+$gradient-color-2: #b6efe7;
+
+                
+section {
+  width: 100%;
+  min-height: 700px;
+  
+  
+
+  .container {
+    
+    .section-title {
+      color: white;
+      margin-bottom:-10rem;
+      margin-left: 5rem;
+      
+      text-align: left;
+
+      h1 {
+        font-size: 9rem;
+        margin-top:11rem !important;
+        font-family: "Open Sans", sans-serif;
+
+  color: #fc3735;
+  background: -webkit-linear-gradient(left, $gradient-color-1,$gradient-color-2 , $gradient-color-1);
+  background-size: 1600px 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 3s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+
+        font-weight: 600;
+      }
+    }
+    .row {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      padding-bottom: 0.5rem;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .left-column {
+        color: white;
+        margin-left: .5rem;
+        width: 50%;
+
+        h2 {
+          font-size: 2.5rem;
+          font-weight: 500;
+          color: $color;
+          font-family: "Bebas Neue", cursive;
+        }
+        p {
+          text-align: justify;
+          text-indent: 5rem;
+          font-size: 1rem;
+          font-weight:500;
+          font-family: 'JaguarJC', sans-serif;
+
+                                                
+          line-height: 3rem;
+        }
+      }
+      .right-column {
+        .img {
+          width: 500px;
+          height: 600px;
+          margin-top:1rem !important;
+        }
+      }
+    }
+  }
+}

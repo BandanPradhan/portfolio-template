@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Clicker+Script&family=Open+Sans&family=Poppins:wght@200;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+$color: rgba(9, 132, 247, 0.945);
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 100%;
+  scroll-behavior:smooth;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  
+  background:black;
+  
+
+
+  
+}
+@import "navbar";
+@import "header";
+@import"about";
+@import "skill";
+@import "gallery";
+@import "footer";
+
+
+   
+ 

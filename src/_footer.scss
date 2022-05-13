@@ -1,0 +1,103 @@
+.footer-container{
+    width:100%;
+    min-height:300px;
+    background: #18191f;
+    margin-top:-1rem !important;
+    padding:.5rem;
+
+
+    
+    
+    .footer-title{
+      
+        
+        text-align:center;
+        h1{
+          
+          font-size: 6rem;
+          font-family: 'Brithney', sans-serif;
+                                                  
+          color: #fc3735;
+          background: -webkit-linear-gradient(left, $gradient-color-1,$gradient-color-2 , $gradient-color-1);
+          background-size: 1600px 200px;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation-duration: 3s;
+          animation-name: animationgradienttitle;
+          animation-iteration-count: infinite;
+          animation-fill-mode: forwards;
+          text-align:center;
+    
+          font-weight: 600;
+
+        }
+
+    }
+  .footer-heading{
+      
+      color:white;
+      display:flex;
+      justify-content:space-around;
+      align-items:center;
+      padding:.5rem;
+      margin-top:-3rem !important;
+      
+      .location{
+          text-align:center;
+          margin-left:1rem !important;
+          font-size:1.3rem !important;
+          i{
+              color:rgb(21, 132, 201);
+          }
+          p{
+              a{
+                  color:white;
+                  text-decoration:none;
+
+              }
+          }
+      } 
+      
+  }
+.social-icnos{
+    display: flex;
+    padding:1rem;
+  
+    
+    
+    
+    
+ 
+#twitter {
+  animation-delay: 0.3s;
+}
+#facebook {
+  animation-delay: 0.7s;
+}
+#github {
+  animation-delay: 0.1s;
+}
+
+
+      
+  }
+  .reserv{
+    
+  
+    p{
+      color:white;
+      font-size:1.2rem;
+
+    }
+  }
+
+
+}
+@keyframes animate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
