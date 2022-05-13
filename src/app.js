@@ -146,8 +146,3 @@ losBoxes.forEach((elBox) => {
 	});
 	
 })(jQuery); 
- function hide(){
-   let nav=document.getElementById('nav');
-   nav.style.display="none";
- }
- let nav="document.get"
