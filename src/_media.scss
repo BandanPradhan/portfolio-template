@@ -1,4 +1,14 @@
-@media  (max-width:970px) and (min-width:765px){
+@media only screen and (max-width: 1220px) {
+    .row{
+        display:flex;
+        flex-direction: column;
+    
+    }
+    .skill-row{
+        display:flex;
+        flex-direction:column;
+    }
+    
  .hello{
      span{
          font-size:3rem;
@@ -15,3 +25,12 @@
  }
 }
     
+@media only screen and (max-width: 992px){
+    .home-section{
+        .container{
+            .row{
+                margin: 100px 0;
+            }
+        }
+    }
+}

@@ -31,7 +31,7 @@ body {
   z-index: 1000;
   display: block;
   left: 0;
-  top: 40px;
+  padding-top: 40px;
   cursor: pointer;
 }
 
@@ -615,6 +615,12 @@ header .home-section .container .row .home-img img {
   height: 550px;
 }
 
+@media only screen and (max-width: 1220px) {
+  #home .container .row {
+    margin-top: 30rem !important;
+  }
+}
+
 @-webkit-keyframes animationgradienttitle {
   0% {
     background-position: 0 1600px;
@@ -1062,6 +1068,43 @@ section .container .row .right-column .img {
   to {
     -webkit-filter: hue-rotate(360deg);
             filter: hue-rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skill-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hello span {
+    font-size: 3rem;
+  }
+  .hello .b {
+    font-size: 4rem;
+  }
+  .home-img img {
+    width: 100px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .home-section .container .row {
+    margin: 100px 0;
   }
 }
 /*# sourceMappingURL=style.css.map */
